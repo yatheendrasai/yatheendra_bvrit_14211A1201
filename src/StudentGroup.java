@@ -82,7 +82,12 @@ public class StudentGroup implements StudentArrayOperation {
 			throw new IllegalArgumentException();
 		}
 		else {
-			
+			Student[] s2=new Student[students.length+1];
+			for(int i=0;i<students.length;i++) {
+				s2[i]=students[i];
+			}
+			s2[s2.length-1]=student;
+			students=s2;
 		}
 		
 	}
