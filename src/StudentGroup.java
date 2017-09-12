@@ -181,7 +181,11 @@ public class StudentGroup implements StudentArrayOperation {
 					j++;
 				}
 			}
-			return st;
+			Student[] st2=new Student[j];
+			for(int i=0;i<j;i++) {
+				st2[i]=st[i];
+			}
+			return st2;
 		}
 	}
 
