@@ -169,13 +169,21 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student[] getByBirthDate(Date date) {
 		// Add your implementation here
+		Student[] st=new Student[students.length];
+		int j=0;
 		if(date==null) {
 			throw new IllegalArgumentException();
 		}
 		else {
-			
+			for(int i=0;i<students.length;i++) {
+				if(students[i].getBirthDate().compareTo(date)>=0) {
+					st[j]=students[i];
+					j++;
+				}
+			}
+			return st;
 		}
-		return null;
+		
 	}
 
 	@Override
