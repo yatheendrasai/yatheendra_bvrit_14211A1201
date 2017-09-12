@@ -66,12 +66,12 @@ public class StudentGroup implements StudentArrayOperation {
 			throw new IllegalArgumentException();
 		}
 		else {
-			Student[] s2=new Student[students.length+1];
-			s2[0]=student;
-			for(int i=0;i<students.length;i++) {
-				s2[i+1]=students[i];
-			}
-			students=s2;
+//			Student[] s2=new Student[students.length+1];
+//			s2[0]=student;
+//			for(int i=0;i<students.length;i++) {
+//				s2[i+1]=students[i];
+//			}
+//			students=s2;
 		}
 	}
 
@@ -82,12 +82,12 @@ public class StudentGroup implements StudentArrayOperation {
 			throw new IllegalArgumentException();
 		}
 		else {
-			Student[] s2=new Student[students.length+1];
-			for(int i=0;i<students.length;i++) {
-				s2[i]=students[i];
-			}
-			s2[s2.length-1]=student;
-			students=s2;
+//			Student[] s2=new Student[students.length+1];
+//			for(int i=0;i<students.length;i++) {
+//				s2[i]=students[i];
+//			}
+//			s2[s2.length-1]=student;
+//			students=s2;
 		}
 		
 	}
@@ -100,15 +100,15 @@ public class StudentGroup implements StudentArrayOperation {
 			throw new IllegalArgumentException();
 		}
 		else {
-			Student[] s2=new Student[students.length+1];
-			for(int i=0;i<index;i++) {
-				s2[i]=students[i];
-			}
-			s2[index]=student;
-			for(int i=index;i<students.length;i++) {
-				s2[i+1]=students[i];
-			}
-			students=s2;
+//			Student[] s2=new Student[students.length+1];
+//			for(int i=0;i<index;i++) {
+//				s2[i]=students[i];
+//			}
+//			s2[index]=student;
+//			for(int i=index;i<students.length;i++) {
+//				s2[i+1]=students[i];
+//			}
+//			students=s2;
 		}
 	}
 
