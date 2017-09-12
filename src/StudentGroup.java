@@ -163,29 +163,54 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void bubbleSort() {
 		// Add your implementation here
+		
 	}
 
 	@Override
 	public Student[] getByBirthDate(Date date) {
 		// Add your implementation here
+		if(date==null) {
+			throw new IllegalArgumentException();
+		}
+		else {
+			
+		}
 		return null;
 	}
 
 	@Override
 	public Student[] getBetweenBirthDates(Date firstDate, Date lastDate) {
 		// Add your implementation here
+		if(firstDate==null||lastDate==null) {
+			throw new IllegalArgumentException();
+		}
+		else {
+			
+		}
 		return null;
 	}
 
 	@Override
 	public Student[] getNearBirthDate(Date date, int days) {
 		// Add your implementation here
+		if(date==null) {
+			throw new IllegalArgumentException();
+		}
+		else {
+			
+		}
 		return null;
 	}
 
 	@Override
 	public int getCurrentAgeByDate(int indexOfStudent) {
 		// Add your implementation here
+		if(indexOfStudent==0) {
+			throw new IllegalArgumentException();
+		}
+		else {
+			
+		}
 		return 0;
 	}
 
@@ -204,6 +229,12 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student getNextStudent(Student student) {
 		// Add your implementation here
+		if(student==null) {
+			throw new IllegalArgumentException();
+		}
+		else {
+			
+		}
 		return null;
 	}
 }
