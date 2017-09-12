@@ -119,15 +119,7 @@ public class StudentGroup implements StudentArrayOperation {
 			throw new IllegalArgumentException();
 		}
 		else {
-			int j=0;
-			Student[] s2=new Student[students.length-1];
-			for(int i=0;i<students.length;i++) {
-				if(i!=index) {
-					s2[j]=students[i];
-					j++;
-				}
-			}
-			//students=s2;
+			
 		}
 	}
 
