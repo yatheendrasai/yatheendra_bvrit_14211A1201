@@ -105,8 +105,8 @@ public class StudentGroup implements StudentArrayOperation {
 				s2[i]=students[i];
 			}
 			s2[index]=student;
-			for(int i=index+1;i<students.length;i++) {
-				s2[i]=students[i-1];
+			for(int i=index;i<students.length;i++) {
+				s2[i+1]=students[i];
 			}
 			students=s2;
 		}
