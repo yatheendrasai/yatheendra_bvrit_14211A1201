@@ -176,14 +176,13 @@ public class StudentGroup implements StudentArrayOperation {
 		}
 		else {
 			for(int i=0;i<students.length;i++) {
-				if(students[i].getBirthDate().compareTo(date)>=0) {
+				if(students[i].getBirthDate().compareTo(date)<=0) {
 					st[j]=students[i];
 					j++;
 				}
 			}
 			return st;
 		}
-		
 	}
 
 	@Override
