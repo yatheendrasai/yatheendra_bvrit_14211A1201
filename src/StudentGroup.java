@@ -127,7 +127,7 @@ public class StudentGroup implements StudentArrayOperation {
 					j++;
 				}
 			}
-			students=s2;
+			//students=s2;
 		}
 	}
 
