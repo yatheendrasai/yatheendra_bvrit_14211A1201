@@ -185,7 +185,7 @@ public class StudentGroup implements StudentArrayOperation {
 			for(int i=0;i<j;i++) {
 				st2[i]=st[i];
 			}
-			return st2
+			return st2;
 		}
 	}
 
