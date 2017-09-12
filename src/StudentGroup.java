@@ -73,42 +73,91 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void addLast(Student student) {
 		// Add your implementation here
+		if(student==null) {
+			throw new IllegalArgumentException();
+		}
+		else {
+			
+		}
 		
 	}
 
 	@Override
 	public void add(Student student, int index) {
 		// Add your implementation here
+
+		if(index<0||index>=students.length||student==null) {
+			throw new IllegalArgumentException();
+		}
+		else {
+			
+		}
 	}
 
 	@Override
 	public void remove(int index) {
 		// Add your implementation here
+		if(index<0||index>=students.length) {
+			throw new IllegalArgumentException();
+		}
+		else {
+			
+		}
 	}
 
 	@Override
 	public void remove(Student student) {
 		// Add your implementation here
+		if(student==null) {
+			throw new IllegalArgumentException();
+		}
+		else {
+			
+		}
 	}
 
 	@Override
 	public void removeFromIndex(int index) {
 		// Add your implementation here
+		if(index<0||index>=students.length) {
+			throw new IllegalArgumentException();
+		}
+		else {
+			
+		}
 	}
 
 	@Override
 	public void removeFromElement(Student student) {
 		// Add your implementation here
+		if(student==null) {
+			throw new IllegalArgumentException();
+		}
+		else {
+			
+		}
 	}
 
 	@Override
 	public void removeToIndex(int index) {
 		// Add your implementation here
+		if(index<0||index>=students.length) {
+			throw new IllegalArgumentException();
+		}
+		else {
+			
+		}
 	}
 
 	@Override
 	public void removeToElement(Student student) {
 		// Add your implementation here
+		if(student==null) {
+			throw new IllegalArgumentException();
+		}
+		else {
+			
+		}
 	}
 
 	@Override
